@@ -1,0 +1,7 @@
+sudo: required
+language: clojure
+dist: trusty
+before_install:
+  - cd clojure-lein
+script:
+  - lein test
